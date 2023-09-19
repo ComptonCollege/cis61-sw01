@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "swift",
+      "args": [
+        "build",
+        "--product",
+        "sw01",
+        "-Xswiftc",
+        "-g",
+        "-Xswiftc",
+        "-use-ld=lld",
+        "-Xlinker",
+        "-debug:dwarf"
+      ],
+      "cwd": "c:\\cc\\sw01",
+      "disableTaskQueue": true,
+      "problemMatcher": [
+        "$swiftc"
+      ],
+      "group": "build",
+      "label": "swift: Build Debug sw01",
+      "detail": "swift build --product sw01 -Xswiftc -g -Xswiftc -use-ld=lld -Xlinker -debug:dwarf"
+    }
+  ]
+}
