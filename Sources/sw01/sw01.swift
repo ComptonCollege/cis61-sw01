@@ -5,6 +5,6 @@ class sw01
 
     static func main() 
     {
-        print("Hello World");
+        print("Hello CIS61");
     }   
 }
